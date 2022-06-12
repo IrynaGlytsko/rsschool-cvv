@@ -25,6 +25,8 @@ h5,
 h6{
   margin: 0;
 }
+
+/* Header */
 .nav{
   background-color: rgba(244, 9, 177, 0.7);
   margin-top: -15px;
@@ -54,6 +56,8 @@ h6{
   font-weight: 500;
   text-decoration: underline;
 }
+
+/* Section */
 .section-container{
   display: flex;
   justify-content: space-evenly;
@@ -90,7 +94,7 @@ h6{
 .main{
   background-color: rgb(28, 28, 28);
   border-radius: 20px;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 .container-main{
   display: flex;
@@ -98,6 +102,11 @@ h6{
 }
 
 /* Contacts */
+.contacts{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
 .contacts-title{
   text-transform: uppercase; 
   letter-spacing: 2px;
@@ -120,13 +129,12 @@ h6{
   font-weight: 500;
   letter-spacing: 1px;
 }
-.contacts{
-  width: 50%;
-}
 
 /* About me */
 .about-me{
   width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
 }
 .about-me-title{
   text-transform: uppercase; 
@@ -137,5 +145,115 @@ h6{
 .description{
   padding: 0 40px;
   letter-spacing: 0.5px;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+/* Skills */
+.skills{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.skills-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* Code */
+.code{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.code-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
+}
+.codevars{
+  font-size: 20px;
+}
+
+/* Courses */
+.courses{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.courses-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
+}
+.courses-list{
+  font-size: 20px;
+}
+.certificate{
+  width: 46%;
+  margin: 10px;
+  transition: 1s;
+}
+.certificate:hover{
+  transform: scale(1.2);
+}
+
+/* Projects */
+.projects{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.projects-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
+}
+.projects-list{
+  font-size: 20px;
+  width: 78%;
+}
+.link-item{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.link-item:hover{
+  text-decoration: underline;
+  color: rgba(244, 9, 177);
+  transition: color 0.2s linear;
+}
+
+/* Education */
+.education{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.education-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
+}
+.education-list{
+  font-size: 20px;
+}
+
+/* English */
+.english{
+  width: 50%;
+  border-bottom: 1px solid rgba(244, 9, 177);
+  margin-bottom: 40px;
+}
+.english-title{
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 500;
 }
