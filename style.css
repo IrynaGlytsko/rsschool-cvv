@@ -193,12 +193,16 @@ h6{
   font-size: 20px;
 }
 .certificate{
-  width: 46%;
+  padding: 0 10px;
+  display: inline;
+}
+.certificate img{
+  width: 42%;
   margin: 10px;
   transition: 1s;
 }
-.certificate:hover{
-  transform: scale(1.2);
+.certificate img:hover{
+  transform: scale(1.3);
 }
 
 /* Projects */
@@ -256,4 +260,23 @@ h6{
   letter-spacing: 2px;
   padding: 10px;
   font-weight: 500;
+}
+
+/* Footer */
+.footer-git{
+  font-size: 50px;
+  align-self: center;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-copy{
+  font-size: 20px;
+  align-self: center;
+}
+.rsschool{
+  width: 130px;
+  align-self: center;
 }
