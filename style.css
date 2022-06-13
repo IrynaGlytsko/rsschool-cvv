@@ -277,6 +277,10 @@ h6{
   align-self: center;
 }
 .rsschool{
-  width: 130px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
   align-self: center;
 }
