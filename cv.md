@@ -41,8 +41,9 @@ alert( result );
 *****
 * University: 2014 Moscow State University of Technology and Management. K.G. Razumovsky / Commodity research and examination of goods
 * Courses: STEP Computer Academy (until now)
+* THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)
 
 ## English
 *****
 At the minimum level. 
-I plan to start learning soon.
+I plan to start learning soon
